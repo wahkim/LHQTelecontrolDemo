@@ -7,8 +7,11 @@
 //
 
 #import "SimulateViewController.h"
+#import "KeyMap_3View.h"
 
 @interface SimulateViewController ()
+
+@property (nonatomic, strong) KeyMap_3View *keyMapView;
 
 @end
 
@@ -16,17 +19,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    self.keyMapView = [[KeyMap_3View alloc] initWithTeleType:TelecontrolTypeDefault mapType:TelecontrolMapType_3 colorType:TelecontrolColTypeBlue];
+    self.keyMapView.currentImage = [UIImage imageNamed:@"img_telecontrol_grey"];
+    
+    self.keyMapView.frame = CGRectMake(0, 0, self.keyMapView.currentImage.size.width, self.keyMapView.currentImage.size.height);
+    self.keyMapView.center = self.view.center;
+    [self.view addSubview:self.keyMapView];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

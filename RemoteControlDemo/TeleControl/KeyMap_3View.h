@@ -8,10 +8,13 @@
 
 #import "KeyMapBaseView.h"
 
-NS_ASSUME_NONNULL_BEGIN
+typedef NS_ENUM(NSUInteger, KeyMap_3Button) {
+    KeyMap_3Button_1 = 0,
+    KeyMap_3Button_2,
+    KeyMap_3Button_3,
+};
 
 @interface KeyMap_3View : KeyMapBaseView
 
 @end
 
-NS_ASSUME_NONNULL_END

@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIBezierPath (Points)
 
+- (NSArray *)points;
+
 @end
 
 NS_ASSUME_NONNULL_END

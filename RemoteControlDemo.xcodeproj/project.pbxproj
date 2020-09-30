@@ -14,6 +14,15 @@
 		29304E912511F7F500CB774E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29304E902511F7F500CB774E /* Assets.xcassets */; };
 		29304E942511F7F500CB774E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29304E922511F7F500CB774E /* LaunchScreen.storyboard */; };
 		29304E972511F7F500CB774E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29304E962511F7F500CB774E /* main.m */; };
+		29304EA12512058800CB774E /* remoteControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29304EA02512058800CB774E /* remoteControlView.m */; };
+		29304EA425120EF000CB774E /* UIBezierPath+Points.m in Sources */ = {isa = PBXBuildFile; fileRef = 29304EA325120EF000CB774E /* UIBezierPath+Points.m */; };
+		29304EAA251238BD00CB774E /* UIImage+RGBA.m in Sources */ = {isa = PBXBuildFile; fileRef = 29304EA9251238BD00CB774E /* UIImage+RGBA.m */; };
+		29304EAD2512396000CB774E /* IrregularButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 29304EAC2512396000CB774E /* IrregularButton.m */; };
+		295CB39225134951005CE612 /* IrregularView.m in Sources */ = {isa = PBXBuildFile; fileRef = 295CB39125134951005CE612 /* IrregularView.m */; };
+		29CE689E25145F9900E8F3C3 /* RealControlController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CE689D25145F9900E8F3C3 /* RealControlController.m */; };
+		29CE68A12514624700E8F3C3 /* SimulateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CE68A02514624700E8F3C3 /* SimulateViewController.m */; };
+		29CE68A52514630500E8F3C3 /* KeyMapBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CE68A42514630500E8F3C3 /* KeyMapBaseView.m */; };
+		29CE68A82514663100E8F3C3 /* KeyMap_3View.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CE68A72514663100E8F3C3 /* KeyMap_3View.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +38,24 @@
 		29304E932511F7F500CB774E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29304E952511F7F500CB774E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29304E962511F7F500CB774E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29304E9F2512058800CB774E /* remoteControlView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = remoteControlView.h; sourceTree = "<group>"; };
+		29304EA02512058800CB774E /* remoteControlView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = remoteControlView.m; sourceTree = "<group>"; };
+		29304EA225120EF000CB774E /* UIBezierPath+Points.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+Points.h"; sourceTree = "<group>"; };
+		29304EA325120EF000CB774E /* UIBezierPath+Points.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+Points.m"; sourceTree = "<group>"; };
+		29304EA8251238BD00CB774E /* UIImage+RGBA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+RGBA.h"; sourceTree = "<group>"; };
+		29304EA9251238BD00CB774E /* UIImage+RGBA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RGBA.m"; sourceTree = "<group>"; };
+		29304EAB2512396000CB774E /* IrregularButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IrregularButton.h; sourceTree = "<group>"; };
+		29304EAC2512396000CB774E /* IrregularButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IrregularButton.m; sourceTree = "<group>"; };
+		295CB39025134951005CE612 /* IrregularView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IrregularView.h; sourceTree = "<group>"; };
+		295CB39125134951005CE612 /* IrregularView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IrregularView.m; sourceTree = "<group>"; };
+		29CE689C25145F9900E8F3C3 /* RealControlController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealControlController.h; sourceTree = "<group>"; };
+		29CE689D25145F9900E8F3C3 /* RealControlController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealControlController.m; sourceTree = "<group>"; };
+		29CE689F2514624700E8F3C3 /* SimulateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimulateViewController.h; sourceTree = "<group>"; };
+		29CE68A02514624700E8F3C3 /* SimulateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimulateViewController.m; sourceTree = "<group>"; };
+		29CE68A32514630500E8F3C3 /* KeyMapBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyMapBaseView.h; sourceTree = "<group>"; };
+		29CE68A42514630500E8F3C3 /* KeyMapBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyMapBaseView.m; sourceTree = "<group>"; };
+		29CE68A62514663100E8F3C3 /* KeyMap_3View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyMap_3View.h; sourceTree = "<group>"; };
+		29CE68A72514663100E8F3C3 /* KeyMap_3View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyMap_3View.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +94,21 @@
 				29304E882511F7F000CB774E /* SceneDelegate.m */,
 				29304E8A2511F7F000CB774E /* ViewController.h */,
 				29304E8B2511F7F000CB774E /* ViewController.m */,
+				29CE689C25145F9900E8F3C3 /* RealControlController.h */,
+				29CE689D25145F9900E8F3C3 /* RealControlController.m */,
+				29CE689F2514624700E8F3C3 /* SimulateViewController.h */,
+				29CE68A02514624700E8F3C3 /* SimulateViewController.m */,
+				29CE68A22514628000E8F3C3 /* TeleControl */,
+				29304E9F2512058800CB774E /* remoteControlView.h */,
+				29304EA02512058800CB774E /* remoteControlView.m */,
+				29304EA225120EF000CB774E /* UIBezierPath+Points.h */,
+				29304EA325120EF000CB774E /* UIBezierPath+Points.m */,
+				29304EA8251238BD00CB774E /* UIImage+RGBA.h */,
+				29304EA9251238BD00CB774E /* UIImage+RGBA.m */,
+				29304EAB2512396000CB774E /* IrregularButton.h */,
+				29304EAC2512396000CB774E /* IrregularButton.m */,
+				295CB39025134951005CE612 /* IrregularView.h */,
+				295CB39125134951005CE612 /* IrregularView.m */,
 				29304E8D2511F7F000CB774E /* Main.storyboard */,
 				29304E902511F7F500CB774E /* Assets.xcassets */,
 				29304E922511F7F500CB774E /* LaunchScreen.storyboard */,
@@ -74,6 +116,17 @@
 				29304E962511F7F500CB774E /* main.m */,
 			);
 			path = RemoteControlDemo;
+			sourceTree = "<group>";
+		};
+		29CE68A22514628000E8F3C3 /* TeleControl */ = {
+			isa = PBXGroup;
+			children = (
+				29CE68A32514630500E8F3C3 /* KeyMapBaseView.h */,
+				29CE68A42514630500E8F3C3 /* KeyMapBaseView.m */,
+				29CE68A62514663100E8F3C3 /* KeyMap_3View.h */,
+				29CE68A72514663100E8F3C3 /* KeyMap_3View.m */,
+			);
+			path = TeleControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +199,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29304EAA251238BD00CB774E /* UIImage+RGBA.m in Sources */,
 				29304E8C2511F7F000CB774E /* ViewController.m in Sources */,
 				29304E862511F7F000CB774E /* AppDelegate.m in Sources */,
+				29304EA425120EF000CB774E /* UIBezierPath+Points.m in Sources */,
+				29304EA12512058800CB774E /* remoteControlView.m in Sources */,
+				29CE68A12514624700E8F3C3 /* SimulateViewController.m in Sources */,
+				29CE689E25145F9900E8F3C3 /* RealControlController.m in Sources */,
+				29CE68A52514630500E8F3C3 /* KeyMapBaseView.m in Sources */,
+				29304EAD2512396000CB774E /* IrregularButton.m in Sources */,
 				29304E972511F7F500CB774E /* main.m in Sources */,
+				29CE68A82514663100E8F3C3 /* KeyMap_3View.m in Sources */,
+				295CB39225134951005CE612 /* IrregularView.m in Sources */,
 				29304E892511F7F000CB774E /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,7 +287,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -277,7 +339,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

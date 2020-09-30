@@ -7,8 +7,11 @@
 //
 
 #import "RealControlController.h"
+#import "remoteControlView.h"
 
 @interface RealControlController ()
+
+@property (nonatomic, strong) remoteControlView *rcView;
 
 @end
 
@@ -16,17 +19,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    self.rcView = [[remoteControlView alloc] init];
+    self.rcView.frame = CGRectMake(0, 0, 300, 520);
+    self.rcView.center = self.view.center;
+    [self.view addSubview:self.rcView];
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

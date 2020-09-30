@@ -8,10 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-NS_ASSUME_NONNULL_BEGIN
+typedef NS_ENUM(NSUInteger, KMButtonType) {
+    KMButtonTypeNormal,
+    KMButtonTypeIrregular,
+};
 
 @interface IrregularButton : UIButton
 
+@property (nonatomic, assign) KMButtonType KMType;
+
 @end
 
-NS_ASSUME_NONNULL_END
